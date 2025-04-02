@@ -1,5 +1,5 @@
 import jsonwebtoken from "jsonwebtoken";
-import { JWT_SECRET_KEY } from "../constants.js";
+import { JWT_SECRET_KEY } from "../../constants.js";
 
 function createAccessToken(user) {
   const expToken = new Date();

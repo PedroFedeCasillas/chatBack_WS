@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
-import { server } from "./app.js";
+import { server } from "./src/app.js";
 import { DB_HOST, DB_PASSWORD, DB_USER, IP_SERVER, PORT } from "./constants.js";
-import { io } from "./utils/index.js";
+import { io } from "./src/utils/index.js";
 
 // URL de conexión a MongoDB
 const mongoDBUrl = `mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/`;
